@@ -5,16 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Career in Web Development Starts Here | The Odin Project</title>
+  <link rel="stylesheet" href="css/framework.css">
 </head>
 
 <body>
-  <nav>
-    <div class="name">
+  <nav class="d-flex justify-content-between">
+    <div class="name d-flex">
       <img src="images/odin-logo.svg" alt="Odin Project" class="logo" aria-hidden="true">
       <p class="logo-text">THE ODIN PROJECT</p>
     </div>
 
-    <ul class="nav-links">
+    <ul class="nav-links d-flex">
       <li><a href="#">All Paths</a></li>
       <li><a href="#">Community</a></li>
       <li><a href="#">About</a></li>
@@ -33,11 +34,11 @@
   </header>
 
   <section>
-    <img src="images/hero-image.svg" alt="" aria-hidden="true">
+    <img class="img-fluid" src="images/hero-image.svg" alt="" aria-hidden="true">
     <h2>How it works</h2>
     <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
 
-    <div>
+    <div class="d-flex mx-auto">
       <div>
         <img src="images/learn.svg" alt="Learn" aria-hidden="true">
         <h3>Learn</h3>
@@ -60,7 +61,7 @@
 
   <section>
     <h2>Learn everything you need to know to become a web developer</h2>
-    <div>
+    <div class="d-flex flex-wrap justify-content-center">
       <div>
         <img src="images/html-badge.svg" alt="HTML" aria-hidden="true">
         <h3>HTML + CSS</h3>
@@ -107,8 +108,8 @@
 
   <section>
     <h2>Sucess Stories</h2>
-    <div>
-      <div>
+    <div class="row mx-auto">
+      <div class="col-xl-6">
         <img src="images/rob-pando.jpg" alt="Rob Pando" aria-hidden="true">
         <div>
           <h3>Rob Pando</h3>
@@ -116,7 +117,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="col-xl-6">
         <img src="images/cody-loyd.jpg" alt="Cody Loyd" aria-hidden="true">
         <div>
           <h3>Cody Loyd</h3>
@@ -124,7 +125,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="col-xl-6">
         <img src="images/william-kennedy.jpg" alt="William Kennedy" aria-hidden="true">
         <div>
           <h3>William Kennedy</h3>
@@ -132,7 +133,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="col-xl-6">
         <img src="images/andrej.jpg" alt="Andrej Dragojević" aria-hidden="true">
         <div>
           <h3>Andrej Dragojević</h3>
@@ -150,14 +151,14 @@
   </section>
 
   <footer>
-    <div>
+    <div class="d-flex">
       <img src="" alt="" aria-hidden="true">
       <p>THE ODIN PROJECT</p>
     </div>
 
     <div></div>
 
-    <div>
+    <div class="d-flex">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">FAQ</a></li>
