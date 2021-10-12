@@ -5,12 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Career in Web Development Starts Here | The Odin Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/framework.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/ce5591dc5d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="d-flex justify-content-between">
-    <div class="name d-flex">
+  <nav class="d-flex">
+    <div class="brand d-flex">
       <img src="images/odin-logo.svg" alt="Odin Project" class="logo" aria-hidden="true">
       <p class="logo-text">THE ODIN PROJECT</p>
     </div>
@@ -20,7 +25,7 @@
       <li><a href="#">Community</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">FAQ</a></li>
-      <div></div>
+      <li class="separator"></li>
       <li><a href="#">Sign up</a></li>
       <li><a href="#">Log in</a></li>
     </ul>
@@ -28,30 +33,32 @@
 
   <header>
     <h1>Your Career in Web Development Starts Here</h1>
-    <p>Our full stack curriculum is free and supported by a passionate open source community.</p>
-    <a href="#">Last Curriculum Update: about 10 hours ago</a>
-    <button type="button">View Full Curriculum</button>
+    <div class="push-down">
+      <h2>Our full stack curriculum is free and supported by a passionate open source community.</h2>
+      <a class="link-brown" href="#">Last Curriculum Update: about 10 hours ago</a>
+    </div>
+    <button class="btn btn-blue" type="button">View Full Curriculum</button>
   </header>
 
-  <section>
+  <section class="how-it-works">
     <img class="img-fluid" src="images/hero-image.svg" alt="" aria-hidden="true">
     <h2>How it works</h2>
-    <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
+    <p class="how-it-works-info mx-auto">This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
 
-    <div class="d-flex mx-auto">
-      <div>
+    <div class="how-it-works-tiles d-flex mx-auto">
+      <div class="tile">
         <img src="images/learn.svg" alt="Learn" aria-hidden="true">
         <h3>Learn</h3>
         <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
       </div>
 
-      <div>
+      <div class="tile">
         <img src="images/build.svg" alt="Build" aria-hidden="true">
         <h3>Build</h3>
         <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.</p>
       </div>
 
-      <div>
+      <div class="tile">
         <img src="images/connect.svg" alt="Connect" aria-hidden="true">
         <h3>Connect</h3>
         <p>You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.</p>
@@ -59,82 +66,82 @@
     </div>
   </section>
 
-  <section>
+  <section class="curriculum-details">
     <h2>Learn everything you need to know to become a web developer</h2>
-    <div class="d-flex flex-wrap justify-content-center">
-      <div>
+    <div class="courses d-flex flex-wrap justify-content-center mx-auto">
+      <div class="course">
         <img src="images/html-badge.svg" alt="HTML" aria-hidden="true">
         <h3>HTML + CSS</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/js-badge.svg" alt="JavaScript" aria-hidden="true">
         <h3>JAVASCRIPT</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/git-badge.svg" alt="Git" aria-hidden="true">
         <h3>GIT</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/db-badge.svg" alt="Databases" aria-hidden="true">
         <h3>DATABASES</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/ruby-badge.svg" alt="Ruby" aria-hidden="true">
         <h3>RUBY</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/ror-badge.svg" alt="Ruby on Rails" aria-hidden="true">
         <h3>RUBY ON RAILS</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/nodejs-badge.svg" alt="NodeJs" aria-hidden="true">
         <h3>NODEJS</h3>
       </div>
 
-      <div>
+      <div class="course">
         <img src="images/getting-hired-badge.svg" alt="Getting Hired" aria-hidden="true">
         <h3>GETTING HIRED</h3>
       </div>
     </div>
 
-    <button type="button">Get Started</button>
+    <button class="btn btn-brown" type="button">Get Started</button>
   </section>
 
-  <section>
+  <section class="success-stories">
     <h2>Sucess Stories</h2>
-    <div class="row mx-auto">
-      <div class="col-xl-6">
-        <img src="images/rob-pando.jpg" alt="Rob Pando" aria-hidden="true">
+    <div class="success-stories-container row mx-auto">
+      <div class= "success-story col-xl-6 d-flex">
+        <img class="rounded-circle" src="images/rob-pando.jpg" alt="Rob Pando" aria-hidden="true">
         <div>
           <h3>Rob Pando</h3>
           <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
         </div>
       </div>
 
-      <div class="col-xl-6">
-        <img src="images/cody-loyd.jpg" alt="Cody Loyd" aria-hidden="true">
+      <div class="success-story col-xl-6 d-flex">
+        <img class="rounded-circle" src="images/cody-loyd.jpg" alt="Cody Loyd" aria-hidden="true">
         <div>
           <h3>Cody Loyd</h3>
           <p>Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...</p>
         </div>
       </div>
 
-      <div class="col-xl-6">
-        <img src="images/william-kennedy.jpg" alt="William Kennedy" aria-hidden="true">
+      <div class="success-story col-xl-6 d-flex">
+        <img class="rounded-circle" src="images/william-kennedy.jpg" alt="William Kennedy" aria-hidden="true">
         <div>
           <h3>William Kennedy</h3>
           <p>The Odin Project changed my life and that is not an understatement. In November 2013, I made a commitment to myself to become a self-taught developer so I threw myself...</p>
         </div>
       </div>
 
-      <div class="col-xl-6">
-        <img src="images/andrej.jpg" alt="Andrej Dragojević" aria-hidden="true">
+      <div class="success-story col-xl-6 d-flex">
+        <img class="rounded-circle" src="images/andrej.jpg" alt="Andrej Dragojević" aria-hidden="true">
         <div>
           <h3>Andrej Dragojević</h3>
           <p>An incredible self-paced curriculum that consists of the best resources for learning programming on the web! It was an invaluable resource on my path to a becoming a software developer....</p>
@@ -142,23 +149,28 @@
       </div>
     </div>
 
-    <a href="#">Read more success stories</a>
+    <a class="read-more" href="#">Read more success stories</a>
   </section>
 
-  <section>
+  <section class="start-learning">
     <h2>Start learning for free now!</h2>
-    <button type="button">Sign Up</button>
+    <button class="btn btn-blue" type="button">Sign Up</button>
   </section>
 
-  <footer>
-    <div class="d-flex">
-      <img src="" alt="" aria-hidden="true">
-      <p>THE ODIN PROJECT</p>
+  <footer class="d-flex">
+    <div class="brand d-flex">
+      <img class="logo" src="images/odin-logo.svg" alt="" aria-hidden="true">
+      <p class="logo-text">THE ODIN PROJECT</p>
     </div>
 
-    <div></div>
+    <ul class="social-icons d-flex">
+      <li><a href="#"><i class="social-icon fab fa-github"></i></a></li>
+      <li><a href="#"><i class="social-icon fab fa-facebook-square"></i></i></a></li>
+      <li><a href="#"><i class="social-icon fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="social-icon fab fa-discord"></i></a></li>
+    </ul>
 
-    <div class="d-flex">
+    <div class="footer-links d-flex">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">FAQ</a></li>
