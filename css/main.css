@@ -33,6 +33,11 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: #4a4a4a !important;
+  text-decoration: none;
+}
+
 nav {
   justify-content: space-between;
   align-items: center;
@@ -68,10 +73,21 @@ nav {
   font-weight: 700;
 }
 
+.nav-links li a:hover {
+  color: #4a4a4a;
+}
+
 li.separator {
   height: 2rem;
   align-self: center;
   border-right: 1px solid currentColor;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: var(--light-blue);
+  background-color: transparent;
 }
 
 @media screen and (max-width: 1055px) {
@@ -314,6 +330,10 @@ footer .logo-text {
   color: var(--brown);
 }
 
+.social-icon:hover {
+  color: #4a4a4a;
+}
+
 .footer-links {
   justify-content: center;
 }
@@ -385,6 +405,11 @@ footer .logo-text {
 
 .btn-brown {
   background-color: var(--brown);
+}
+
+.btn-blue:hover,
+.btn-brown:hover {
+  opacity: 0.8;
 }
 
 .link-brown {
