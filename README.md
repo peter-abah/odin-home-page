@@ -3,7 +3,7 @@ This is a clone of [The Odin Project's](https://theodinproject.com/home) home pa
 
 [Live Preview](https://peter-abah.github.io/odin-home-page)
 
-# Screenshots
+# Screenshot
 ![Desktop screenshot](images/screenshot-desktop.png "Optional title")
 
 # Process
