@@ -1,5 +1,6 @@
 # The Odin Project Home Page
 This is a clone of [The Odin Project's](https://theodinproject.com/home) home page made using my  [grid based framework](https://github.com/peter-abah/grid-framework.git).
+
 [Live Preview](https://peter-abah.github.io/odin-home-page)
 
 # Screenshots
